@@ -12,3 +12,10 @@ function initGameStateEditorEditorEditor() {
 // Edit game state editor editor
 function editGameStateEditorEditor() {
   // Edit game state editor editor
+}
+
+// Save game state editor editor
+function saveGameStateEditorEditor() {
+  // Save game state editor editor
+  gameStateEditorEditorEditor.save();
+}
