@@ -6,3 +6,17 @@ let collisionEditorEditor;
 
 // Initialize collision editor editor
 function initCollisionEditorEditor() {
+ collisionEditorEditor = new CollisionEditorEditor();
+}
+
+// Edit collision editor
+function editCollisionEditor() {
+  // Edit collision editor
+  collisionEditorEditor.edit();
+}
+
+// Save collision editor
+function saveCollisionEditor() {
+  // Save collision editor
+  collisionEditorEditor.save();
+}
